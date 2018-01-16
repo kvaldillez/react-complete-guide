@@ -1,0 +1,12 @@
+.UserInput {
+
+}
+
+input {
+  border: 1px solid #ccc;
+}
+
+input:hover {
+  background-color: #000;
+  color: #fff;
+}
