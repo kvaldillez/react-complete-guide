@@ -7,6 +7,7 @@ const persons = props =>
       <Person
         click={() => props.clicked(index)}
         changed={event => props.changed(event, person.id)}
+        position={index}
         name={person.name}
         age={person.age}
         key={person.id}
